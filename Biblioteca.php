@@ -8,15 +8,19 @@ $oper=$_POST['operador'];
 
   if($oper=='s'){
    $resul=$num1+$num2;
+   echo $num1. '+'.$num2.':'.$resul.'<br>';
    echo "El resultado de la suma es: " . $resul;
   }elseif($oper=='r'){
    $resul=$num1-$num2;
+   echo $num1. '-'.$num2.':'.$resul.'<br>';
    echo "El resultado de la resta es: ".$resul;
   } elseif($oper=='m'){
    $resul=$num1*$num2;
+   echo $num1. '*'.$num2.':'.$resul.'<br>';
    echo "El resultado de la multiplicacion es: ".$resul;
   } elseif($oper=='d'){
    $resul=$num1/$num2;
+   echo $num1. '/'.$num2.':'.$resul.'<br>';
    echo "El resultado de la divison es: ".$resul;
   }
  }

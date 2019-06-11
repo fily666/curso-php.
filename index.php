@@ -18,12 +18,13 @@
             <div class="panel-heading"> Curso de php </div>
             <div class="panel-body">
                 <div class="container">
-              
-<?php
-echo"nombre<br>";
-echo"nombre<br>";
-echo"nombre<br>";
-?>
+   
+                    Wilmar Felipe <br>
+                    Rincon castañeda <br>
+                    Desarrollo web con PHP<br>
+                    Evidencia: Taller "Uso de funciones"<br>
+
+                   
                 </div>
                 <div class="col-lg-8">
                     <div class="panel panel-info">
